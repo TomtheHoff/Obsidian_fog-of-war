@@ -37,7 +37,7 @@ const context = await esbuild.context({
 	logLevel: "info",
 	sourcemap: prod ? false : "inline",
 	treeShaking: true,
-	outfile: "main.js",
+	outfile: "C:\\Users\\hofst\\OneDrive\\dnd\\Obsidian\\Bastel Vault\\.obsidian\\plugins\\fog-of-war\\main.js",
 	minify: prod,
 });
 
